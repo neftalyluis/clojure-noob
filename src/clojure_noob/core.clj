@@ -34,7 +34,7 @@
   (str "Get off my lawn, " whippersnapper "!!!"))
 
 (defn codger
-  ➊   [& whippersnappers]
+  [& whippersnappers]
   (map codger-communication whippersnappers))
 
 (defn number-comment
